@@ -1,11 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BackendService } from './services/backend.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './home/navbar/navbar.component';
-import { HeaderComponent } from './home/header/header.component';
-import { FooterComponent } from './home/footer/footer.component';
 import { BiodataComponent } from './resume/biodata/biodata.component';
 import { EducationComponent } from './resume/education/education.component';
 import { ExperienceComponent } from './resume/experience/experience.component';
@@ -16,10 +14,7 @@ import { ContactComponent } from './resume/contact/contact.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NavbarComponent,
-    HeaderComponent,
-    FooterComponent,
+    AppComponent, 
     BiodataComponent,
     EducationComponent,
     ExperienceComponent,
@@ -32,7 +27,7 @@ import { ContactComponent } from './resume/contact/contact.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [BackendService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

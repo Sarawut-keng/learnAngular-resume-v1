@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400;700&display=swap');
+
+/* All Element */
+body {
+    padding-left: 100px;
+    padding-right: 100px;
+    /* position: relative; */
+}
+
+* {
+    color: white;
+    background-color: black;
+    font-family: 'JetBrains Mono', monospace;
+    scroll-behavior: smooth 0.5s;
+}

@@ -21,5 +21,6 @@ import { FooterComponent } from './footer/footer.component';
     CommonModule,
     RouterModule
   ],
+  exports: [HomeComponent]
 })
 export class HomeModule { }

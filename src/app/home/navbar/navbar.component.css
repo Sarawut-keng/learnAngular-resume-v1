@@ -1,0 +1,45 @@
+/* Sidebar */
+
+nav {
+	float: left;
+	width: 16%;
+	padding-left: 108px;
+	left: 0;
+	height: fit-content;
+	position: fixed; 
+    }
+    
+    /* Sidebar -- bullet*/
+    
+    nav ul {
+	list-style: none;
+	padding: 0;
+    }
+    
+    
+    
+    /* Sidebar -- space between list */
+    
+    nav ul li {
+	padding: 5px;
+	font-size: 20px;
+    }
+    
+    
+    /* Sidebar -- style */
+    
+    nav ul li a:link {
+	text-decoration: none;
+    }
+    
+    nav ul li a:hover {
+	text-decoration: none;
+	color: coral;
+	font-size: 25px;
+    }
+    
+    nav ul li a i:hover {
+	text-decoration: none;
+	color: coral;
+	font-size: 25px;
+    }

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { BackendService } from 'src/app/services/backend.service';
+import { lifeClass } from './life-long-class';
 
 @Component({
   selector: 'app-life-long-learning',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LifeLongLearningComponent implements OnInit {
 
-  constructor() { }
+  lifeLong!: lifeClass;
+
+  constructor(private backend: BackendService) { }
 
   ngOnInit(): void {
+    this.lifeLong = this.backend.getLifeLong()
   }
 
 }

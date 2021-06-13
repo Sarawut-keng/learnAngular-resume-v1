@@ -11,6 +11,8 @@ import { SkillComponent } from './resume/skill/skill.component';
 import { HobbiesComponent } from './resume/hobbies/hobbies.component';
 import { LifeLongLearningComponent } from './resume/life-long-learning/life-long-learning.component';
 import { ContactComponent } from './resume/contact/contact.component';
+import { MainComponent } from './resume/main/main.component';
+import { HomeModule } from './home/home.module';
 
 @NgModule({
   declarations: [
@@ -21,11 +23,13 @@ import { ContactComponent } from './resume/contact/contact.component';
     SkillComponent,
     HobbiesComponent,
     LifeLongLearningComponent,
-    ContactComponent
+    ContactComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HomeModule
   ],
   providers: [BackendService],
   bootstrap: [AppComponent]

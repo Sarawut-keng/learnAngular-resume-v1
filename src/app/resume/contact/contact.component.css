@@ -1,0 +1,38 @@
+
+.containforcontact {
+	display: grid;
+	grid-template-columns: 30% 15% 5% 50%;
+	grid-template-rows: repeat(6, 2em);
+	font-size: 20px;
+    }
+    
+    .icons {
+	text-align: right;
+	padding-right: 1em;
+	box-sizing: border-box;
+	justify-items: center;
+    }
+    
+    .icons > img {
+	width: 25px;
+	height: auto;
+    }
+    .info {
+	margin-left: 30px;
+	padding-left: 20px;
+	border-left: 2px solid white;
+    }
+    
+    .head {
+	display: inline;
+    }
+    
+    .head i {
+	float: left;
+	font-size: 65px;
+    }
+    
+    .head h1 {
+	padding-left: 1em;
+	font-size: 40px;
+    }

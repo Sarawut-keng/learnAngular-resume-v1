@@ -1,0 +1,9 @@
+header {
+	text-align: right;
+	padding: 20px;
+}
+
+.animate__animated.animate__lightSpeedInLeft {
+	--animate-delay: 2s;
+	--animate-duration: 2s;
+}

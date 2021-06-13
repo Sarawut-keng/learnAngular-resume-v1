@@ -5,17 +5,17 @@ import { Injectable } from '@angular/core';
 })
 export class BackendService {
 
-  constructor() { }
+  constructor() {}
 
   getBioData() {
-    return [{
+    return {
       description: "Hello everyone, my name is Sarawut Kengkan , y'all can call me Bas🏀. I'm a fresh graduated with bachelor degree of economics who is passionate in coding and the role as developer. After graduated from CMU, i have been studying in data analysis tools such as python, R, also SQL until now, the learning guide me to the wonderful of developer world and look exciting when learning about coding that why i am here.",
       age: 24,
       height: 174,
       weight: 67,
       hometown: "Phayao",
       living: "Chiang Mai"
-    }]
+    }
   }
 
   getEducation() {
@@ -64,17 +64,17 @@ export class BackendService {
           {
             id: 1,
             name: "Team Player",
-            description: "Support the Team, know yourself limit and don't be a hindrance of the team. also thinking the big picture for the impact of any action"
+            skills: ["Support the Team, know yourself limit and don't be a hindrance of the team. also thinking the big picture for the impact of any action"]
           },
           {
             id: 2,
             name: "Project Management",
-            description: "Especial known the process of work, how fast we can solve our tasks, also fast for other teams who are waiting continue to do the job after our team."
+            skills: ["Especial known the process of work, how fast we can solve our tasks, also fast for other teams who are waiting continue to do the job after our team."]
           },
           {
             id: 3,
             name: "Willingness to Learn",
-            description:"The technology is keeping updating day by day, which impact humen to learn the new thing more and more for keeping trends and skills, and i am the one of these humen"
+            skills:["The technology is keeping updating day by day, which impact humen to learn the new thing more and more for keeping trends and skills, and i am the one of these humen"]
           }
         ]
       },
@@ -85,7 +85,7 @@ export class BackendService {
           {
             id: 1,
             name: "Computer skills",
-            skills: ["Python", "SQL", "Tableau", "HTML", "CSS", "Office tools", "iWork", "JavaScript"]
+            skills: ["Python", "SQL", "Tableau", "HTML", "CSS", "Office tools", "Google tools", "iWork", "JavaScript"]
           },
           {
             id: 2,
@@ -98,16 +98,15 @@ export class BackendService {
   }
 
   getLifeLong() {
-    return [
-      {
+    return {
         description: "I also have a life long learning skill, after I graduated from Chiang Mai university I have been improving data analysis and visualization skill via online courses from many sources. Below is some of my certificates."
       }
-    ]
+
   }
 
+
   getContact() {
-    return [
-      {
+    return {
         address: "Chiang Mai",
         phone: "+66848051238",
         facebook: "Basbus BasBus",
@@ -115,6 +114,6 @@ export class BackendService {
         github: "Sarawut",
         email: "bussarawut@icloud.com"
       }
-    ]
+      
   }
 }

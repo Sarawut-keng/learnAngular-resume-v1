@@ -1,1 +1,68 @@
-<p>skill works!</p>
+<div class="data">
+	<div class="head">
+	    <i class="las la-crosshairs" style="color: blue;"></i>
+	    <h1 id="Skill" style="color: blue;">&ensp; SKILL</h1>
+	</div>
+	<div class="info">
+	    <h3 style="color: blue;">{{ skill[0].name }}</h3>
+	    <table class="soft-table">
+		<tr>
+		    <th><img src="./assets/image/Creative team-amico.png" alt="Team"></th>
+		    <th><img src="./assets/image/Organizing projects-amico.png" alt="PM"></th>
+		    <th><img src="./assets/image/Knowledge-amico.png" alt="learn"></th>
+		</tr>
+		<tr>
+		    <td><span style="color: lightskyblue; font-size: larger;">{{ soft[0].name }}</span> <br>{{ soft[0].skills[0] }}</td>
+		    <td><span style="color: lightskyblue; font-size: larger;">{{ soft[1].name }}</span> <br>{{ soft[1].skills[0] }}</td>
+		    <td style="padding-top: 1em;"><span style="color: lightskyblue; font-size: larger;">{{ soft[2].name }}</span><br>{{ soft[2].skills[0] }}</td>
+		</tr>
+	    </table>
+	    <h3 style="color: blue;">{{ skill[1].name }}</h3>
+	    <ul>
+		<li style="color: lightskyblue; font-size: larger;">{{ hard[0].name }}</li>
+		<br>
+		<table class="com-table">
+		    <tr>
+			<td><img src="https://img.icons8.com/color/80/000000/python.png"/></td>
+			<td><img src="https://img.icons8.com/officel/80/000000/sql.png"/></td>
+			<td><img src="https://img.icons8.com/color/96/000000/tableau-software.png"/></td>
+			<td><img src="https://img.icons8.com/color/96/000000/html-5--v1.png"/></td>
+			<td><img src="https://img.icons8.com/color/96/000000/css3.png"/></td>
+		    </tr>
+		    <tr>
+			<td>{{ hard[0].skills[0] }}</td>
+			<td>{{ hard[0].skills[1] }}</td>
+			<td>{{ hard[0].skills[2] }}</td>
+			<td>{{ hard[0].skills[3] }}</td>
+			<td>{{ hard[0].skills[4] }}</td>
+		    </tr>
+		    <tr>
+			<td><img src="https://img.icons8.com/color/96/000000/office-365.png"/></td>
+			<td><img src="https://img.icons8.com/fluent/96/000000/google-logo.png"/></td>
+			<td><img src="https://img.icons8.com/color/96/000000/mac-os.png"/></td>
+			<td><img src="https://img.icons8.com/color/96/000000/javascript.png"/></td>
+			<td>&nbsp;</td>
+		    </tr>
+		    <tr>
+			<td>{{ hard[0].skills[5] }}</td>
+			<td>{{ hard[0].skills[6] }}</td>
+			<td>{{ hard[0].skills[7] }}</td>
+			<td>{{ hard[0].skills[8] }}</td>
+			<td>&nbsp;</td>
+		    </tr>
+		</table>
+		<li style="color: lightskyblue; font-size: larger;">{{ hard[1].name }}</li>
+		<br>
+		<table class="lang-table">
+		    <tr>
+			<td style="width: 30%; text-align: center;"><img src="./assets/image/thailand (1).png" alt="thai"></td>
+			<td style="width: 70%;">{{ hard[1].skills[0] }}</td>
+		    </tr>
+		    <tr>
+			<td style="text-align: center; width: 30%;"><img src="./assets/image/united-kingdom.png" alt="eng"></td>
+			<td style="text-align:left;">{{ hard[1].skills[1] }}</td>
+		    </tr>
+		</table>
+	    </ul>
+	</div>
+</div>

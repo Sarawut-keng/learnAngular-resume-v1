@@ -1,0 +1,31 @@
+.info {
+	margin-left: 30px;
+	padding-left: 20px;
+	border-left: 2px solid white;
+    }
+    
+    .head {
+	display: inline;
+    }
+    
+    .head i {
+	float: left;
+	font-size: 65px;
+    }
+    
+    .head h1 {
+	padding-left: 1em;
+	font-size: 40px;
+    }
+
+    .TheContainer {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 200px);
+	text-align: center;
+	box-sizing: border-box;
+    }
+    
+    .TheContainer img {
+	width: 50%;
+    }

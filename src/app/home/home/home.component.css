@@ -1,0 +1,65 @@
+header {
+	text-align: right;
+	padding: 20px;
+}
+
+.animate__animated.animate__lightSpeedInLeft {
+	--animate-delay: 2s;
+	--animate-duration: 2s;
+}
+
+article {
+	float: right;
+	width: 80%;
+	height: fit-content;
+    }
+    
+    article h1 {
+	font-size: 40px;
+    }
+    
+    article p {
+	font-size: 18px;
+    }
+    
+    /* Main -- space */
+    
+    article h1,
+    p {
+	padding: 10px;
+    }
+
+    .info {
+	margin-left: 30px;
+	padding-left: 20px;
+	border-left: 2px solid white;
+    }
+    
+    .head {
+	display: inline;
+    }
+    
+    .head i {
+	float: left;
+	font-size: 65px;
+    }
+    
+    .head h1 {
+	padding-left: 1em;
+    }
+
+
+/* Footer --  layout size and color */
+
+footer {
+	clear: both;
+	text-align: center;
+	border-top: 2px solid white;
+    }
+    
+    
+    /* Setting footer --  space */
+    
+    footer h2 {
+	padding: 10px;
+    }

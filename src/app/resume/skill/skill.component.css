@@ -1,0 +1,66 @@
+
+.info {
+	margin-left: 30px;
+	padding-left: 20px;
+	border-left: 2px solid white;
+	padding-bottom: 60px;
+    }
+    
+    .head {
+	display: inline;
+    }
+    
+    .head i {
+	float: left;
+	font-size: 65px;
+    }
+    
+    .head h1 {
+	padding-left: 1em;
+	font-size: 40px;
+    }
+
+/* Skill */
+
+.soft-table {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 20px;
+    }
+    .soft-table tr th {
+	width: 33%;
+	height: 100px;
+    }
+    .soft-table tr td {
+	padding-left: 10px;
+	padding-right: 10px;
+    }
+    .soft-table tr th img {
+	width: 50%;
+    }
+    
+    .com-table {
+	width: 100%;
+	text-align: center;
+    }
+    .com-table tr td {
+	width: 25%;
+	height: 100px;
+    }
+    .com-table i {
+	font-size: 50px;
+    }
+    .com-table li {
+	padding-bottom: 2opx;
+    }
+    
+    
+    .lang-table {
+	width: 100%;
+    }
+    .lang-table tr td {
+	height: 100px;
+    }
+    .lang-table img {
+	width: 20%;
+    }

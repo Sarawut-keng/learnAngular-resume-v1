@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { BackendService } from 'src/app/services/backend.service';
+import { bioData } from './bioClass';
 
 @Component({
   selector: 'app-biodata',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BiodataComponent implements OnInit {
 
-  constructor() { }
+  biodata!: bioData;
+
+
+  constructor(private backendService: BackendService) { }
 
   ngOnInit(): void {
+    this.biodata = this.backendService.getBioData();
   }
 
 }

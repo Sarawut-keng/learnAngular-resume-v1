@@ -1,27 +1,10 @@
 # AngularResumeV1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
+This is my resume created by using angular with apply routing and service to calling the data to the front-end
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## The examples of the UI
+![Screen Shot 2564-06-13 at 17 41 19](https://user-images.githubusercontent.com/68180592/121804064-baf4b400-cc6e-11eb-9c23-2f98b7065b69.png)
+![Screen Shot 2564-06-13 at 17 41 42](https://user-images.githubusercontent.com/68180592/121804065-c051fe80-cc6e-11eb-951b-d19e39b072b6.png)
+![Screen Shot 2564-06-13 at 17 41 52](https://user-images.githubusercontent.com/68180592/121804067-c21bc200-cc6e-11eb-9bac-0046c3459b30.png)
+![Screen Shot 2564-06-13 at 17 42 01](https://user-images.githubusercontent.com/68180592/121804070-c34cef00-cc6e-11eb-8351-ef5292d24b3c.png)
+![Screen Shot 2564-06-13 at 17 42 18](https://user-images.githubusercontent.com/68180592/121804071-c47e1c00-cc6e-11eb-83e4-29a9ed8b849e.png)
